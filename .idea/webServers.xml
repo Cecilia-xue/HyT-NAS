@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02351dd5-bfe5-4e93-8830-315fbd98af50" name="3D_ANAS">
+        <fileTransfer accessType="SFTP" sshConfigId="0eeef06a-8f56-42b2-9184-69d03b4462d0" sshConfig="ren@222.25.80.12:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

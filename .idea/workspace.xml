@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81b967b9-6102-44e0-a3f9-aec6d6e75672" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r4WnoHS2XltNLvg6DrlAlXQg22" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportGeventDebugging" value="true" />
+    <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="gaussian_filter_3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D_ANAS_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/gaussian_filter_3D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="infe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D_ANAS_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/infe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssl_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D_ANAS_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/ssl_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D_ANAS_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_ssl_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3D_ANAS_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train_ssl_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.ssl_train" />
+        <item itemvalue="Python.gaussian_filter_3D" />
+        <item itemvalue="Python.train_ssl_init" />
+        <item itemvalue="Python.infe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b967b9-6102-44e0-a3f9-aec6d6e75672" name="Default Changelist" comment="" />
+      <created>1618236011332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618236011332</updated>
+      <workItem from="1618236013254" duration="3288000" />
+      <workItem from="1618325134360" duration="3279000" />
+      <workItem from="1618328499852" duration="1658000" />
+      <workItem from="1618330222389" duration="7114000" />
+      <workItem from="1618399844041" duration="136000" />
+      <workItem from="1618552630377" duration="1246000" />
+      <workItem from="1618573183042" duration="44000" />
+      <workItem from="1618749315747" duration="10059000" />
+      <workItem from="1618831025036" duration="6626000" />
+      <workItem from="1618838215901" duration="544000" />
+      <workItem from="1618842025449" duration="363000" />
+      <workItem from="1618920219615" duration="224000" />
+      <workItem from="1618931463335" duration="670000" />
+      <workItem from="1618934389808" duration="3000" />
+      <workItem from="1618978633300" duration="1815000" />
+      <workItem from="1618998238318" duration="624000" />
+      <workItem from="1619089607895" duration="1792000" />
+      <workItem from="1619091563263" duration="28000" />
+      <workItem from="1619349695732" duration="1303000" />
+      <workItem from="1619434048559" duration="3786000" />
+      <workItem from="1619443139025" duration="1493000" />
+      <workItem from="1619522571141" duration="4275000" />
+      <workItem from="1619526869303" duration="706000" />
+      <workItem from="1619527586308" duration="2076000" />
+      <workItem from="1619623235463" duration="178000" />
+      <workItem from="1619659842428" duration="30623000" />
+      <workItem from="1619746250824" duration="533000" />
+      <workItem from="1619747125257" duration="247000" />
+      <workItem from="1619774967787" duration="61000" />
+      <workItem from="1620475875398" duration="6003000" />
+      <workItem from="1620523805965" duration="6358000" />
+      <workItem from="1620543634668" duration="43000" />
+      <workItem from="1620559874306" duration="302000" />
+      <workItem from="1620734403930" duration="3329000" />
+      <workItem from="1621087616339" duration="5918000" />
+      <workItem from="1621400339973" duration="225000" />
+      <workItem from="1621421542919" duration="986000" />
+      <workItem from="1621514754091" duration="15000" />
+      <workItem from="1621690523158" duration="4090000" />
+      <workItem from="1621819780587" duration="64000" />
+      <workItem from="1621860029630" duration="5458000" />
+      <workItem from="1621907277888" duration="1487000" />
+      <workItem from="1622036157591" duration="563000" />
+      <workItem from="1622277875526" duration="10858000" />
+      <workItem from="1622294331377" duration="188000" />
+      <workItem from="1653920685393" duration="4024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="79" key="#Deployment" timestamp="1621860470810">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="283" y="79" key="#Deployment/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1618831441587" />
+    <state x="283" y="79" key="#Deployment/0.0.1378.960@0.0.1378.960" timestamp="1621860470810" />
+    <state x="393" y="94" key="#SSH_Configurations" timestamp="1621690592778">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="393" y="94" key="#SSH_Configurations/0.0.1378.960@0.0.1378.960" timestamp="1621690592778" />
+    <state x="145" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619664179037">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="145" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1619664179037" />
+    <state x="145" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1378.960@0.0.1378.960" timestamp="1618330586648" />
+    <state x="420" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619665576122">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="420" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1619665576122" />
+    <state x="489" y="365" width="806" height="595" key="#xdebugger.evaluate" timestamp="1622288385038">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="203" y="352" width="1157" height="595" key="#xdebugger.evaluate/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527247536" />
+    <state x="697" y="365" width="646" height="595" key="#xdebugger.evaluate/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621094853251" />
+    <state x="489" y="365" width="806" height="595" key="#xdebugger.evaluate/0.0.1378.960@0.0.1378.960" timestamp="1622288385038" />
+    <state x="470" y="236" key="FileChooserDialogImpl" timestamp="1621863736718">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="470" y="236" key="FileChooserDialogImpl/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1619662820339" />
+    <state x="470" y="236" key="FileChooserDialogImpl/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621091882309" />
+    <state x="470" y="236" key="FileChooserDialogImpl/0.0.1378.960@0.0.1378.960" timestamp="1621863736718" />
+    <state width="1335" height="239" key="GridCell.Tab.0.bottom" timestamp="1622289254790">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="325" key="GridCell.Tab.0.bottom/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527466059" />
+    <state width="1320" height="185" key="GridCell.Tab.0.bottom/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.0.bottom/0.0.1378.960@0.0.1378.960" timestamp="1622289254790" />
+    <state width="1335" height="239" key="GridCell.Tab.0.center" timestamp="1622289254790">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="325" key="GridCell.Tab.0.center/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527466059" />
+    <state width="1320" height="185" key="GridCell.Tab.0.center/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.0.center/0.0.1378.960@0.0.1378.960" timestamp="1622289254790" />
+    <state width="1335" height="239" key="GridCell.Tab.0.left" timestamp="1622289254790">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="325" key="GridCell.Tab.0.left/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527466059" />
+    <state width="1320" height="185" key="GridCell.Tab.0.left/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.0.left/0.0.1378.960@0.0.1378.960" timestamp="1622289254790" />
+    <state width="1335" height="239" key="GridCell.Tab.0.right" timestamp="1622289254790">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="325" key="GridCell.Tab.0.right/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527466059" />
+    <state width="1320" height="185" key="GridCell.Tab.0.right/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.0.right/0.0.1378.960@0.0.1378.960" timestamp="1622289254790" />
+    <state width="1335" height="239" key="GridCell.Tab.1.bottom" timestamp="1622289254791">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="256" key="GridCell.Tab.1.bottom/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527280842" />
+    <state width="1320" height="284" key="GridCell.Tab.1.bottom/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.1.bottom/0.0.1378.960@0.0.1378.960" timestamp="1622289254791" />
+    <state width="1335" height="239" key="GridCell.Tab.1.center" timestamp="1622289254791">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="256" key="GridCell.Tab.1.center/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527280842" />
+    <state width="1320" height="284" key="GridCell.Tab.1.center/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.1.center/0.0.1378.960@0.0.1378.960" timestamp="1622289254791" />
+    <state width="1335" height="239" key="GridCell.Tab.1.left" timestamp="1622289254790">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="256" key="GridCell.Tab.1.left/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527280842" />
+    <state width="1320" height="284" key="GridCell.Tab.1.left/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.1.left/0.0.1378.960@0.0.1378.960" timestamp="1622289254790" />
+    <state width="1335" height="239" key="GridCell.Tab.1.right" timestamp="1622289254791">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="1335" height="256" key="GridCell.Tab.1.right/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620527280842" />
+    <state width="1320" height="284" key="GridCell.Tab.1.right/0.0.1378.960/2160.0.2560.1400@0.0.1378.960" timestamp="1621095388640" />
+    <state width="1335" height="239" key="GridCell.Tab.1.right/0.0.1378.960@0.0.1378.960" timestamp="1622289254791" />
+    <state x="191" y="125" key="SettingsEditor" timestamp="1621860443152">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="191" y="125" key="SettingsEditor/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1619527528625" />
+    <state x="191" y="125" key="SettingsEditor/0.0.1378.960@0.0.1378.960" timestamp="1621860443152" />
+    <state width="696" height="487" key="XDebugger.FullValuePopup" timestamp="1622282150185">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state width="696" height="487" key="XDebugger.FullValuePopup/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1620478795640" />
+    <state width="696" height="487" key="XDebugger.FullValuePopup/0.0.1378.960@0.0.1378.960" timestamp="1622282150185" />
+    <state x="485" y="346" width="744" height="468" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1621690782065">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="485" y="346" width="744" height="468" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1378.960@0.0.1378.960" timestamp="1621690782065" />
+    <state x="-1256" y="0" width="1142" height="604" maximized="true" key="dock-window-1" timestamp="1619663065035">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1256" y="0" width="1142" height="604" maximized="true" key="dock-window-1/0.0.1378.960/-1920.0.1920.1040@0.0.1378.960" timestamp="1619663065035" />
+    <state x="458" y="422" width="597" height="538" key="ftp.server.browser" timestamp="1621860432646">
+      <screen x="0" y="0" width="1378" height="960" />
+    </state>
+    <state x="458" y="422" width="597" height="538" key="ftp.server.browser/0.0.1378.960@0.0.1378.960" timestamp="1621860432646" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/train.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/network.py</url>
+          <line>371</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/main.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/train.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoCo-Pytorch-master/src/model/moco.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/one_stage_nas/modeling_ssl/data_loader.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/one_stage_nas/solver/build.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$train_ssl_init.coverage" NAME="train_ssl_init Coverage Results" MODIFIED="1620527466059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$infe.coverage" NAME="infe Coverage Results" MODIFIED="1620527008702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$train.coverage" NAME="train Coverage Results" MODIFIED="1620529069099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$search_hu_20.coverage" NAME="search_hu_20 Coverage Results" MODIFIED="1618331146375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$gaussian_filter_3D.coverage" NAME="gaussian_filter_3D Coverage Results" MODIFIED="1621093785593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_ssl_aug$train.coverage" NAME="train Coverage Results" MODIFIED="1621693940995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$search_pu_30.coverage" NAME="search_pu_30 Coverage Results" MODIFIED="1618337144453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_ssl_aug_t$train.coverage" NAME="train Coverage Results" MODIFIED="1622289003562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$train_pu_20.coverage" NAME="train_pu_20 Coverage Results" MODIFIED="1620525134493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$main.coverage" NAME="main Coverage Results" MODIFIED="1619679055420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoCo-Pytorch-master/src" />
+    <SUITE FILE_PATH="coverage/3D_ANAS_2$ssl_train.coverage" NAME="ssl_train Coverage Results" MODIFIED="1621095061484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+  </component>
+</project>

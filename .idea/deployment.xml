@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ren@222.25.80.12:22">
+    <serverData>
+      <paths name="3D_ANAS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ren/hkzhang/code/3D_ANAS_ssl_aug" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ren@222.25.80.12:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ren/hkzhang/code/3D_ANAS_ssl_aug" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
