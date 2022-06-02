@@ -51,7 +51,7 @@ Pick a model from [model zoo](MODEL_ZOO.md).
 <!-- TABLE HEADER -->
 <th valign="bottom">Name</th>
 <th valign="bottom">Dataset</th>
-<th valign="bottom">Number of samples</th>
+<th valign="bottom">Number of training samples</th>
 <th valign="bottom">OA%</th>
 <th valign="bottom">AA%</th>
 <th valign="bottom">K%</th>
@@ -114,7 +114,7 @@ Pick a model from [model zoo](MODEL_ZOO.md).
 </tbody></table>
 ## <a name="CitingHyT-NAS"></a>Citing HyT-NAS
 
-If you use Mask2Former in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.
+If you use HyT-NAS in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.
 
 ```BibTeX
 @article{xue20213d,
