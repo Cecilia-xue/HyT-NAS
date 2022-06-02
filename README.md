@@ -19,8 +19,8 @@
 
 The current version HyT-NAS has support for a few datasets. Due to Policy constraints, we are not able to directly provide and host HSI images. However, we share the pre-processed HSI images in .h5 and .mat files. Datasets can be downloaded by accessing [Google Drive](https://drive.google.com/drive/folders/1DM_I__KRbyzV88De8Y4lL8k4VDPYgTTz?usp=sharing).
 
-We have provide random  sample assignment files on different dataset in the 'preprocess/dataset_db',which can be used directly.
-If you would to generate them by yourself, run the samples_extraction.py script to assign the traning, test and val samples.
+We have provided random  sample assignment files on different dataset in the 'preprocess/dataset_db', which can be used directly.
+If you would like to generate them by yourself, run the samples_extraction.py script to assign the training, test and val samples.
 - `python samples_extraction.py --data_root data_dir --dist_dir output_dir --dataset dataset_name --train_num number_training_samples --val_num number_val_samples`
 
 Then, you should set the path of sample assignment files e,g("HoustonU_dist_per_train-20.0_val-10.0.h5") in the config files.
