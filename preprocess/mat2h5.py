@@ -7,8 +7,8 @@ dataset = 'Pavia'
 dataset_HSI = 'pavia'
 dataset_gt = 'pavia_gt'
 
-data_mat_dir = '/data/data2/zhk218/data/HSIs/mat/'
-data_h5_dir = '/data/data2/zhk218/data/HSIs/h5/'
+data_mat_dir = '/data/HSIs/mat/'
+data_h5_dir = '/data/HSIs/h5/'
 
 dataset_mat_dir = data_mat_dir + '{}/{}.mat'.format(dataset, dataset)
 dataset_gt_dir = data_mat_dir + '{}/{}_gt.mat'.format(dataset, dataset)
