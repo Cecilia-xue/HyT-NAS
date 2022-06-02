@@ -8,42 +8,110 @@
   <img src="https://cdn.jsdelivr.net/gh/Cecilia-xue/image-hosting@main/20220529/overrall.450fm2jgj3s0.webp" width="100%" height="100%"/>
 </div><br/>
 ### Features
-* A single architecture for panoptic, instance and semantic segmentation.
+* Auto-searched structure for HSI Classification.
 * Support  Hyperspectral Image Classification dataset: Houston University, Pavia University, Pavia Center.
 
 ## Installation
 
-See [installation instructions](INSTALL.md).
+- `pip install -r requirements.txt`
 
-## Getting Started
+## Datasets preparing
 
-See [Preparing Datasets for Mask2Former](datasets/README.md).
+The current version HyT-NAS has support for a few datasets. Due to Policy constraints, we are not able to directly provide and host HSI images. However, we share the pre-processed HSI images in .h5 and .mat files. Datasets can be downloaded by accessing [Google Drive](https://drive.google.com/drive/folders/1DM_I__KRbyzV88De8Y4lL8k4VDPYgTTz?usp=sharing).
 
-See [Getting Started with Mask2Former](GETTING_STARTED.md).
+We have provide random  sample assignment files on different dataset in the 'preprocess/dataset_db',which can be used directly.
+If you would to generate them by yourself, run the samples_extraction.py script to assign the traning, test and val samples.
+- `python samples_extraction.py --data_root data_dir --dist_dir output_dir --dataset dataset_name --train_num number_training_samples --val_num number_val_samples`
 
-Run our demo using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uIWE5KbGFSjrxey2aRd5pWkKNY1_SaNq)
+Then, you should set the path of sample assignment files e,g("HoustonU_dist_per_train-20.0_val-10.0.h5") in the config files.
 
-Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/akhaliq/Mask2Former)
+## Architucture Searching
 
-Replicate web demo and docker image is available here: [![Replicate](https://replicate.com/facebookresearch/mask2former/badge)](https://replicate.com/facebookresearch/mask2former)
+- `cd ./tools python search.py --config-file '../configs/Pavia/search_ad.yaml' --device '0'`
+- `cd ./tools python search.py --config-file '../configs/PaviaU/search_ad.yaml' --device '0'`
+- `cd ./tools python search.py --config-file '../configs/HoustonU/search_ad.yaml' --device '0'`
 
-## Advanced usage
+## Model Training
 
-See [Advanced Usage of Mask2Former](ADVANCED_USAGE.md).
+- `cd ./tools python train.py --config-file '../configs/Pavia/train_ad.yaml' --device '0'`
+- `cd ./tools python train.py --config-file '../configs/PaviaU/train_ad.yaml' --device '0'`
+- `cd ./tools python train.py --config-file '../configs/HoustonU/train_ad.yaml' --device '0'`
 
-## Model Zoo and Baselines
-
-We provide a large set of baseline results and trained models available for download in the [Mask2Former Model Zoo](MODEL_ZOO.md).
-
-## License
-
-Shield: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-The majority of Mask2Former is licensed under a [MIT License](LICENSE).
+### Inference with Pre-trained Models
+- `cd ./tools python infe.py --config-file '../configs/Pavia/infe_ov.yaml' --device '0'`
+- `cd ./tools python infe.py --config-file '../configs/PaviaU/infe_ov.yaml' --device '0'`
+- `cd ./tools python infe.py --config-file '../configs/HoustonU/infe_ov.yaml' --device '0'`
 
 
-However portions of the project are available under separate license terms: Swin-Transformer-Semantic-Segmentation is licensed under the [MIT license](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation/blob/main/LICENSE), Deformable-DETR is licensed under the [Apache-2.0 License](https://github.com/fundamentalvision/Deformable-DETR/blob/main/LICENSE).
 
+Pick a model from [model zoo](MODEL_ZOO.md).
+## Model Zoo
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom">Name</th>
+<th valign="bottom">Dataset</th>
+<th valign="bottom">Number of samples</th>
+<th valign="bottom">OA%</th>
+<th valign="bottom">AA%</th>
+<th valign="bottom">K%</th>
+<th valign="bottom">Download</th>
+<!-- TABLE BODY -->
+<!-- ROW: maskformer2_R50_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Pavia Center</td>
+<td align="center">20 pixel/class</td>
+<td align="center">99.28</td>
+<td align="center">98.05</td>
+<td align="center">98.98</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/1pYnmbRKPU_gnoHAjSTrXquOsZfE8MrLB?usp=sharing">model</a></td>
+</tr>
+<!-- ROW: maskformer2_R101_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Pavia Center</td>
+<td align="center">30 pixel/class</td>
+<td align="center">99.49</td>
+<td align="center">98.99</td>
+<td align="center">99.28</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/121I7OtWNXxbxT6--qJ3ONUxcVRfvIbQU?usp=sharing">model</a></td>
+</tr>
+<!-- ROW: maskformer2_swin_tiny_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Pavia University</td>
+<td align="center">20 pixel/class</td>
+<td align="center">98.77</td>
+<td align="center">98.81</td>
+<td align="center">98.37</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/101MAXQ53Ge6AN60gyy3Uz-Hsho05MgPq?usp=sharing">model</a></td>
+</tr>
+<!-- ROW: maskformer2_swin_small_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Pavia University</td>
+<td align="center">30 pixel/class</td>
+<td align="center">99.52</td>
+<td align="center">99.51</td>
+<td align="center">99.37</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/1ztxBzyCLanrr22cvV9tL90ITsK28xJIB?usp=sharing">model</a></td>
+</tr>
+<!-- ROW: maskformer2_swin_base_384_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Houston University</td>
+<td align="center">20 pixel/class</td>
+<td align="center">87.11</td>
+<td align="center">88.84</td>
+<td align="center">86.07</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/1wvMwGalu-b44x2aSs6W3xdaSGiBvhXZk?usp=sharing">model</a></td>
+</tr>
+<!-- ROW: maskformer2_swin_base_IN21k_384_bs16_50ep -->
+ <tr><td align="center">HyT-NAS</td>
+<td align="center">Houston University</td>
+<td align="center">30 pixel/class</td>
+<td align="center">91.14</td>
+<td align="center">92.66</td>
+<td align="center">90.42</td>
+<td align="center"><a href="https://drive.google.com/drive/folders/1pXStCBTEARGirE6OnuIuzwoQfUMPmb4W?usp=sharing">model</a></td>
+</tr>
+</tbody></table>
 ## <a name="CitingHyT-NAS"></a>Citing HyT-NAS
 
 If you use Mask2Former in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.

@@ -135,8 +135,7 @@ def get_dist_per(label_map, train_num, val_num, save_dir, dataset):
 
 def main():
     parser = argparse.ArgumentParser(description='HSI samples distribution')
-    # parser.add_argument('--data_root', type=str, default='/home/hkzhang/Documents/data/HSIs/h5')
-    parser.add_argument('--data_root', type=str, default='/public/datasets/hkzhang/data/h5')
+    parser.add_argument('--data_root', type=str, default='/public/datasets/data/h5')
     parser.add_argument('--dist_dir', type=str, default='./dataset_db')
     parser.add_argument('--dataset', type=str, default='HoustonU')
     parser.add_argument('--train_num', type=int, default=450)
