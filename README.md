@@ -112,7 +112,7 @@ Pick a model from [model zoo](MODEL_ZOO.md).
 <td align="center"><a href="https://drive.google.com/drive/folders/1pXStCBTEARGirE6OnuIuzwoQfUMPmb4W?usp=sharing">model</a></td>
 </tr>
 </tbody></table>
-## <a name="CitingHyT-NAS"></a>Citing HyT-NAS
+### <a name="CitingHyT-NAS"></a>Citing HyT-NAS
 
 If you use HyT-NAS in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.
 
