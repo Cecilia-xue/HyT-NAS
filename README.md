@@ -118,13 +118,15 @@ Pick a model from [model zoo](MODEL_ZOO.md).
 If you use HyT-NAS in your research or wish to refer to the baseline results published in the [Model Zoo](MODEL_ZOO.md), please use the following BibTeX entry.
 
 ```BibTeX
-@article{xue20213d,
-  title={ Grafting Transformer Module on Automatically Designed ConvNet for Hyperspectral Image Classification},
+@ARTICLE{9791305,
   author={Xue, Xizhe and Zhang, Haokui and Fang, Bei and Bai, Zongwen and Li, Ying},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Grafting Transformer on Automatically Designed Convolutional Neural Network for Hyperspectral Image Classification}, 
   year={2022},
-  publisher={IEEE}
-}
+  volume={60},
+  number={},
+  pages={1-16},
+  doi={10.1109/TGRS.2022.3180685}}
 ```
 
 If you find the code useful, please also consider the following BibTeX entry.
